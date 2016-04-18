@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BD23FE1CC4B65800F10C7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD23FD1CC4B65800F10C7E /* main.m */; };
+		F1BD24011CC4B65800F10C7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD24001CC4B65800F10C7E /* AppDelegate.m */; };
+		F1BD24041CC4B65800F10C7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD24031CC4B65800F10C7E /* ViewController.m */; };
+		F1BD24071CC4B65800F10C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BD24051CC4B65800F10C7E /* Main.storyboard */; };
+		F1BD24091CC4B65800F10C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BD24081CC4B65800F10C7E /* Assets.xcassets */; };
+		F1BD240C1CC4B65800F10C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BD240A1CC4B65800F10C7E /* LaunchScreen.storyboard */; };
+		F1BD24171CC4B65800F10C7E /* CKBlockAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD24161CC4B65800F10C7E /* CKBlockAlertViewTests.m */; };
+		F1BD24221CC4B65800F10C7E /* CKBlockAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD24211CC4B65800F10C7E /* CKBlockAlertViewUITests.m */; };
+		F1BD24321CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD24311CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BD24131CC4B65800F10C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BD23F11CC4B65800F10C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BD23F81CC4B65800F10C7E;
+			remoteInfo = CKBlockAlertView;
+		};
+		F1BD241E1CC4B65800F10C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BD23F11CC4B65800F10C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BD23F81CC4B65800F10C7E;
+			remoteInfo = CKBlockAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1BD23F91CC4B65800F10C7E /* CKBlockAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKBlockAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD23FD1CC4B65800F10C7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1BD23FF1CC4B65800F10C7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1BD24001CC4B65800F10C7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1BD24021CC4B65800F10C7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1BD24031CC4B65800F10C7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1BD24061CC4B65800F10C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1BD24081CC4B65800F10C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BD240B1CC4B65800F10C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1BD240D1CC4B65800F10C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BD24121CC4B65800F10C7E /* CKBlockAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKBlockAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD24161CC4B65800F10C7E /* CKBlockAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKBlockAlertViewTests.m; sourceTree = "<group>"; };
+		F1BD24181CC4B65800F10C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BD241D1CC4B65800F10C7E /* CKBlockAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKBlockAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD24211CC4B65800F10C7E /* CKBlockAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKBlockAlertViewUITests.m; sourceTree = "<group>"; };
+		F1BD24231CC4B65800F10C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BD24301CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+BlockAlertView.h"; sourceTree = "<group>"; };
+		F1BD24311CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+BlockAlertView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BD23F61CC4B65800F10C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD240F1CC4B65800F10C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD241A1CC4B65800F10C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BD23F01CC4B65800F10C7E = {
+			isa = PBXGroup;
+			children = (
+				F1BD242F1CC4B6E200F10C7E /* UIAlertViewCategory */,
+				F1BD23FB1CC4B65800F10C7E /* CKBlockAlertView */,
+				F1BD24151CC4B65800F10C7E /* CKBlockAlertViewTests */,
+				F1BD24201CC4B65800F10C7E /* CKBlockAlertViewUITests */,
+				F1BD23FA1CC4B65800F10C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BD23FA1CC4B65800F10C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD23F91CC4B65800F10C7E /* CKBlockAlertView.app */,
+				F1BD24121CC4B65800F10C7E /* CKBlockAlertViewTests.xctest */,
+				F1BD241D1CC4B65800F10C7E /* CKBlockAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BD23FB1CC4B65800F10C7E /* CKBlockAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD23FF1CC4B65800F10C7E /* AppDelegate.h */,
+				F1BD24001CC4B65800F10C7E /* AppDelegate.m */,
+				F1BD24021CC4B65800F10C7E /* ViewController.h */,
+				F1BD24031CC4B65800F10C7E /* ViewController.m */,
+				F1BD23FC1CC4B65800F10C7E /* Supporting Files */,
+			);
+			path = CKBlockAlertView;
+			sourceTree = "<group>";
+		};
+		F1BD23FC1CC4B65800F10C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD24051CC4B65800F10C7E /* Main.storyboard */,
+				F1BD24081CC4B65800F10C7E /* Assets.xcassets */,
+				F1BD240A1CC4B65800F10C7E /* LaunchScreen.storyboard */,
+				F1BD240D1CC4B65800F10C7E /* Info.plist */,
+				F1BD23FD1CC4B65800F10C7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1BD24151CC4B65800F10C7E /* CKBlockAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD24161CC4B65800F10C7E /* CKBlockAlertViewTests.m */,
+				F1BD24181CC4B65800F10C7E /* Info.plist */,
+			);
+			path = CKBlockAlertViewTests;
+			sourceTree = "<group>";
+		};
+		F1BD24201CC4B65800F10C7E /* CKBlockAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD24211CC4B65800F10C7E /* CKBlockAlertViewUITests.m */,
+				F1BD24231CC4B65800F10C7E /* Info.plist */,
+			);
+			path = CKBlockAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		F1BD242F1CC4B6E200F10C7E /* UIAlertViewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD24301CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.h */,
+				F1BD24311CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.m */,
+			);
+			path = UIAlertViewCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BD23F81CC4B65800F10C7E /* CKBlockAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD24261CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertView" */;
+			buildPhases = (
+				F1BD23F51CC4B65800F10C7E /* Sources */,
+				F1BD23F61CC4B65800F10C7E /* Frameworks */,
+				F1BD23F71CC4B65800F10C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKBlockAlertView;
+			productName = CKBlockAlertView;
+			productReference = F1BD23F91CC4B65800F10C7E /* CKBlockAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BD24111CC4B65800F10C7E /* CKBlockAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD24291CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertViewTests" */;
+			buildPhases = (
+				F1BD240E1CC4B65800F10C7E /* Sources */,
+				F1BD240F1CC4B65800F10C7E /* Frameworks */,
+				F1BD24101CC4B65800F10C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BD24141CC4B65800F10C7E /* PBXTargetDependency */,
+			);
+			name = CKBlockAlertViewTests;
+			productName = CKBlockAlertViewTests;
+			productReference = F1BD24121CC4B65800F10C7E /* CKBlockAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1BD241C1CC4B65800F10C7E /* CKBlockAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD242C1CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertViewUITests" */;
+			buildPhases = (
+				F1BD24191CC4B65800F10C7E /* Sources */,
+				F1BD241A1CC4B65800F10C7E /* Frameworks */,
+				F1BD241B1CC4B65800F10C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BD241F1CC4B65800F10C7E /* PBXTargetDependency */,
+			);
+			name = CKBlockAlertViewUITests;
+			productName = CKBlockAlertViewUITests;
+			productReference = F1BD241D1CC4B65800F10C7E /* CKBlockAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BD23F11CC4B65800F10C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Clark;
+				TargetAttributes = {
+					F1BD23F81CC4B65800F10C7E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F1BD24111CC4B65800F10C7E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F1BD23F81CC4B65800F10C7E;
+					};
+					F1BD241C1CC4B65800F10C7E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F1BD23F81CC4B65800F10C7E;
+					};
+				};
+			};
+			buildConfigurationList = F1BD23F41CC4B65800F10C7E /* Build configuration list for PBXProject "CKBlockAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BD23F01CC4B65800F10C7E;
+			productRefGroup = F1BD23FA1CC4B65800F10C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BD23F81CC4B65800F10C7E /* CKBlockAlertView */,
+				F1BD24111CC4B65800F10C7E /* CKBlockAlertViewTests */,
+				F1BD241C1CC4B65800F10C7E /* CKBlockAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BD23F71CC4B65800F10C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD240C1CC4B65800F10C7E /* LaunchScreen.storyboard in Resources */,
+				F1BD24091CC4B65800F10C7E /* Assets.xcassets in Resources */,
+				F1BD24071CC4B65800F10C7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD24101CC4B65800F10C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD241B1CC4B65800F10C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BD23F51CC4B65800F10C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD24041CC4B65800F10C7E /* ViewController.m in Sources */,
+				F1BD24321CC4B6FE00F10C7E /* UIAlertView+BlockAlertView.m in Sources */,
+				F1BD24011CC4B65800F10C7E /* AppDelegate.m in Sources */,
+				F1BD23FE1CC4B65800F10C7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD240E1CC4B65800F10C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD24171CC4B65800F10C7E /* CKBlockAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD24191CC4B65800F10C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD24221CC4B65800F10C7E /* CKBlockAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BD24141CC4B65800F10C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BD23F81CC4B65800F10C7E /* CKBlockAlertView */;
+			targetProxy = F1BD24131CC4B65800F10C7E /* PBXContainerItemProxy */;
+		};
+		F1BD241F1CC4B65800F10C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BD23F81CC4B65800F10C7E /* CKBlockAlertView */;
+			targetProxy = F1BD241E1CC4B65800F10C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1BD24051CC4B65800F10C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BD24061CC4B65800F10C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1BD240A1CC4B65800F10C7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BD240B1CC4B65800F10C7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BD24241CC4B65800F10C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BD24251CC4B65800F10C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BD24271CC4B65800F10C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKBlockAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1BD24281CC4B65800F10C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKBlockAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1BD242A1CC4B65800F10C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKBlockAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKBlockAlertView.app/CKBlockAlertView";
+			};
+			name = Debug;
+		};
+		F1BD242B1CC4B65800F10C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKBlockAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKBlockAlertView.app/CKBlockAlertView";
+			};
+			name = Release;
+		};
+		F1BD242D1CC4B65800F10C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CKBlockAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CKBlockAlertView;
+			};
+			name = Debug;
+		};
+		F1BD242E1CC4B65800F10C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CKBlockAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.CKBlockAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CKBlockAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BD23F41CC4B65800F10C7E /* Build configuration list for PBXProject "CKBlockAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD24241CC4B65800F10C7E /* Debug */,
+				F1BD24251CC4B65800F10C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BD24261CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD24271CC4B65800F10C7E /* Debug */,
+				F1BD24281CC4B65800F10C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1BD24291CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD242A1CC4B65800F10C7E /* Debug */,
+				F1BD242B1CC4B65800F10C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1BD242C1CC4B65800F10C7E /* Build configuration list for PBXNativeTarget "CKBlockAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD242D1CC4B65800F10C7E /* Debug */,
+				F1BD242E1CC4B65800F10C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BD23F11CC4B65800F10C7E /* Project object */;
+}
